@@ -86,6 +86,9 @@
   margin-right: auto;
   display: block;
 }
+.title{
+  font-size: 2rem
+}
 
 /* Media Queries */
 @media (min-width: 1024px) {
@@ -103,7 +106,7 @@
   }
 
   .title {
-    font-size: 3.75rem;
+    font-size: 3rem;
   }
 
   .hero-img {
@@ -619,7 +622,7 @@
   background-color: #121215;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
   border-radius: 0.5rem;
-  width: 70%;
+  width: 90%;
 }
 
 .card-body {

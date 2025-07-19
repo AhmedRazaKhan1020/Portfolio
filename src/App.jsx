@@ -38,20 +38,6 @@ function App() {
 
   const projects = [
     {
-      title: 'Blogging App',
-      image: 'https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp', // Replace with real image
-      tech: 'React | Tailwind | Mongodb',
-      liveLink: '#',
-      codeLink: '#',
-    },
-    {
-      title: 'LinkTree',
-      image: 'linktree.JPG',
-      tech: 'Next.js | Mongodb ',
-      liveLink: '#',
-      codeLink: '#',
-    },
-    {
       title: 'Text Analyzer',
       image: 'text.JPG',
       tech: 'React ',
@@ -78,6 +64,13 @@ function App() {
       tech: 'HTML | CSS | JavaScript',
       liveLink: 'ahmedrazakhan1020.github.io/Toss--Game/',
       codeLink: 'https://github.com/AhmedRazaKhan1020/Toss--Game',
+    },
+    {
+      title: 'LinkTree',
+      image: 'linktree.JPG',
+      tech: 'Next.js | Mongodb ',
+      liveLink: '#',
+      codeLink: '#',
     },
 
   ];
@@ -147,10 +140,10 @@ function App() {
               </a>
             </div>
             <div className="buttons">
-              <button className="btn bg-white text-black">
+              <button className="btn btn2 bg-white text-black">
                 <a href="#project">View Project</a>
               </button>
-              <button className="btn dark-btn">
+              <button className="btn btn2 dark-btn">
                 <a href="/Ahmed_Raza_CV.jpg" download="Ahmed_Raza_CV">
                   <Download className="icon" size={15} /> Download CV
                 </a>
@@ -159,7 +152,7 @@ function App() {
           </div>
           <div className="home-image">
             <img
-              src="https://i.giphy.com/media/26tn33aiTi1jkl6H6/giphy.webp"
+              src="developer2.png"
               alt="img"
               className="hero-img"
             />
