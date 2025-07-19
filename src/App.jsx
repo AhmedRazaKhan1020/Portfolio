@@ -48,30 +48,24 @@ function App() {
       title: 'Simple E-Commerce',
       image: '/ecommerce.JPG',
       tech: 'HTML | CSS | JavaScript',
-      liveLink: 'ahmedrazakhan1020.github.io/E-com/',
+      liveLink: 'https://ahmedrazakhan1020.github.io/E-com/',
       codeLink: 'https://github.com/AhmedRazaKhan1020/E-com',
     },
     {
       title: 'Stop Watch',
       image: '/watch.JPG',
       tech: 'HTML | CSS | JavaScript',
-      liveLink: 'ahmedrazakhan1020.github.io/Stop-Watch/',
+      liveLink: 'https://ahmedrazakhan1020.github.io/Stop-Watch/',
       codeLink: 'https://github.com/AhmedRazaKhan1020/Stop-Watch',
     },
     {
       title: 'Toss Game',
       image: '/toss.JPG',
       tech: 'HTML | CSS | JavaScript',
-      liveLink: 'ahmedrazakhan1020.github.io/Toss--Game/',
+      liveLink: 'https://ahmedrazakhan1020.github.io/Toss--Game/',
       codeLink: 'https://github.com/AhmedRazaKhan1020/Toss--Game',
     },
-    {
-      title: 'LinkTree',
-      image: 'linktree.JPG',
-      tech: 'Next.js | Mongodb ',
-      liveLink: '#',
-      codeLink: '#',
-    },
+   
 
   ];
 
