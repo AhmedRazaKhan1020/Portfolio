@@ -38,34 +38,19 @@ function App() {
 
   const projects = [
     {
-      title: 'Text Analyzer',
-      image: 'text.JPG',
-      tech: 'React ',
-      liveLink: 'https://text-utils-kuyf.vercel.app/',
+      title: 'AgencyWebsite',
+      image: 'agency.JPG',
+      tech: 'Next.js|ShanCN|Tailwind.',
+      liveLink: 'https://www.brandwings.online/',
       codeLink: 'https://github.com/AhmedRazaKhan1020/Text-utils',
     },
     {
-      title: 'Simple E-Commerce',
-      image: '/ecommerce.JPG',
-      tech: 'HTML | CSS | JavaScript',
-      liveLink: 'https://ahmedrazakhan1020.github.io/E-com/',
-      codeLink: 'https://github.com/AhmedRazaKhan1020/E-com',
-    },
-    {
-      title: 'Stop Watch',
-      image: '/watch.JPG',
-      tech: 'HTML | CSS | JavaScript',
-      liveLink: 'https://ahmedrazakhan1020.github.io/Stop-Watch/',
-      codeLink: 'https://github.com/AhmedRazaKhan1020/Stop-Watch',
-    },
-    {
-      title: 'Toss Game',
-      image: '/toss.JPG',
-      tech: 'HTML | CSS | JavaScript',
-      liveLink: 'https://ahmedrazakhan1020.github.io/Toss--Game/',
-      codeLink: 'https://github.com/AhmedRazaKhan1020/Toss--Game',
-    },
-   
+      title: 'Gym Managment system',
+      image: '/gym.JPG',
+      tech: 'Full Stack Project| Next js |ShadCn',
+      liveLink: 'https://mis-gym.netlify.app/'
+    }
+    
 
   ];
 
@@ -138,7 +123,7 @@ function App() {
                 <a href="#project">View Project</a>
               </button>
               <button className="btn btn2 dark-btn">
-                <a href="/Ahmed_Raza_CV.jpg" download="Ahmed_Raza_CV">
+                <a href="/Ahmed Raza Khan.jpg" download="Ahmed Raza Khan">
                   <Download className="icon" size={15} /> Download CV
                 </a>
               </button>
@@ -236,12 +221,6 @@ function App() {
                       className="btn demo-btn"
                     >
                       <SquareArrowOutUpRight size={20} strokeWidth={1.75} /> Live Demo
-                    </a>
-                    <a
-                      href={project.codeLink}
-                      className="btn code-btn"
-                    >
-                      <Github size={20} strokeWidth={1.75} /> Source Code
                     </a>
                   </div>
                 </div>
