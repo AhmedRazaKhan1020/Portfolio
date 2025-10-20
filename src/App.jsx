@@ -47,8 +47,14 @@ function App() {
     {
       title: 'Gym Managment system',
       image: '/gym.JPG',
-      tech: 'Full Stack Project| Next js |ShadCn',
+      tech: 'Full Stack Project| Next js |Node js |Express js |MongoDB|ShadCn',
       liveLink: 'https://mis-gym.netlify.app/'
+    },
+    {
+      title: 'HealthMate (Medical Report Analyzer)',
+      image: '/health3.JPG',
+      tech: 'Full Stack Project| Next js |Node js |Express js |MongoDB',
+      liveLink: 'https://healt-mate.netlify.app/'
     }
     
 
